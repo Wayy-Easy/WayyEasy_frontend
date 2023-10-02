@@ -1,0 +1,21 @@
+.mainContainer {
+    position: relative;
+    padding-top: 30px;
+}
+
+.cardContainer {
+    margin-top: 10px;
+}
+
+.media {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.buttons {
+    margin-top: 20px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,312 @@
+.mainContainer {
+  position: relative;
+  width: 85%;
+  margin: auto;
+}
+
+.sectionOne {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.introFirst {
+  margin-top: 30px;
+  width: 55%;
+}
+
+.introFirst b,
+.introFirst h1 {
+  font-weight: bold;
+  font-size: 4vw;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.introFirst h1 b {
+  color: #4200ff;
+  margin-left: 0px;
+}
+
+.introFirst p {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  color: #b4b4b4;
+}
+
+.introFirstButton {
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.introFirstButton button:nth-child(1) {
+  background: #4200ff;
+  color: white;
+  border: none;
+  height: 60px;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 10px 20px 10px 20px;
+  border-radius: 11px;
+}
+
+.introFirstButton button:nth-child(1) span {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.introFirstButton button:nth-child(2) {
+  background: transparent;
+  display: flex;
+  color: black;
+  font-weight: 600;
+  line-height: 60px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.introFirstButton button:nth-child(2) img {
+  height: 50px;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.introSecond {
+  width: 45%;
+  position: relative;
+}
+
+.introSecondCircle {
+  position: absolute;
+  right: 0;
+  height: 320px;
+  width: 320px;
+  border: 20px solid #e7e7e7;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.introSecondCircle2 {
+  background: #4200ff;
+  height: 290px;
+  width: 290px;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 50%;
+}
+
+.introSecondCircle2 img {
+  height: 280px;
+  margin-top: 5px;
+}
+
+/* medical services */
+.mSContainer {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.mSContainer h1 {
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+.mSContainer p {
+  width: 200px;
+}
+
+/* articles */
+.articlesContainer {
+  position: relative;
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.articlesContainer h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.articlesContainer p {
+  margin-bottom: 20px;
+}
+
+.cards {
+  position: relative;
+}
+
+/* search section starts here */
+
+.searchHeader {
+  position: relative;
+  margin: auto;
+  padding: 12px;
+  margin-top: 20px;
+  text-align: start;
+  max-width: 800px;
+  -webkit-box-shadow: 0 0 10px #9a9a9a;
+  box-shadow: 0 0 10px #9a9a9a;
+  border-radius: 20px;
+}
+
+.searchHeader h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+}
+
+.searchSection {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.searchSection input {
+  border: none;
+  background-color: #e6e6e6;
+  height: 50px;
+  color: #4200ff;
+  padding-left: 20px;
+  padding-top: 5px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.searchSection input:nth-child(1) {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.searchSection input:nth-child(2),
+.formControl {
+  width: 200px;
+}
+
+.searchSection input:focus {
+  border: 3px solid #4200ff;
+  color: #4200ff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.searchButton {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  line-height: 45px;
+  margin-left: 5vw;
+  margin-right: 20px;
+  border-radius: 15px;
+  color: white;
+  background-image: linear-gradient(#4200ff, #2d01a4);
+}
+
+.searchButton:hover {
+  cursor: pointer;
+}
+
+.searchResult {
+  margin-top: 10px;
+  padding: 15px
+}
+
+/* media query */
+@media screen and (max-width: 968px) {
+  .sectionOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .introFirst,
+  .introSecond {
+    width: 100%;
+  }
+
+  .introSecondCircle {
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 676px) {
+  .searchHeader {
+    max-width: 450px;
+  }
+
+  .searchSection {
+    flex-direction: column;
+  }
+
+  .searchSection input:nth-child(1) {
+    width: 300px;
+  }
+
+  .searchSection input:nth-child(2) {
+    width: 300px;
+    margin-top: 15px;
+  }
+
+  .formControl {
+    width: 320px !important;
+    margin-top: 15px !important;
+    margin-left: 20px !important;
+  }
+
+  .searchButton {
+    margin-top: 10px;
+    width: 300px;
+    margin-right: 0px !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .introFirstButton {
+    flex-direction: column;
+  }
+
+  .introSecondCircle {
+    height: 260px;
+    width: 260px;
+  }
+
+  .introSecondCircle2 {
+    height: 230px;
+    width: 230px;
+  }
+
+  .introSecondCircle2 img {
+    height: 220px;
+    margin-top: 5px;
+  }
+
+  .introFirst b,
+  .introFirst h1 {
+    font-size: 40px;
+  }
+
+  .searchSection input:nth-child(1) {
+    width: 200px;
+  }
+
+  .searchSection input:nth-child(2) {
+    width: 200px;
+    margin-top: 15px;
+  }
+
+  .formControl {
+    width: 220px !important;
+  }
+
+  .searchButton {
+    margin-top: 10px;
+    width: 225px;
+  }
+}

@@ -1,0 +1,32 @@
+.mainContainer {
+    position: relative;
+    width: 85%;
+    margin: auto;
+}
+
+.sectionOne {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+}
+
+.oneFirstHalf h1 {
+    font-size: 4.3vw;
+    font-weight: 900;
+}
+
+.oneSecondHalf {
+    position: relative;
+    align-items: flex-end;
+}
+
+.oneSecondHalf img {
+    width: 90%;
+}
+
+@media screen and (max-width: 1000px) {
+    .sectionOne {
+        display: flex;
+        flex-direction: column;
+    }
+}
