@@ -35,6 +35,7 @@ import { logOut } from "../../redux/actions/admin/hospitalAdmin/owner";
 
 import Cards from "../cards/services/ServicesCard";
 import { cardsList } from "../helpers/uiConstants";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const classes = useStyles();
@@ -166,33 +167,33 @@ const Header = () => {
         <IconButton aria-label="show 4 new mails" color="inherit">
           <HomeIcon />
         </IconButton>
-        <a href="/" style={{ textDecoration: "none", color: "black" }}>
+        <Link href="/">
           Home
-        </a>
+        </Link>
       </MenuItem>
       <MenuItem>
         <IconButton aria-label="show 4 new mails" color="inherit">
           <DescriptionIcon />
         </IconButton>
-        <a href="/articles" style={{ textDecoration: "none", color: "black" }}>
+        <Link href="/articles">
           Articles
-        </a>
+        </Link>
       </MenuItem>
       <MenuItem>
         <IconButton aria-label="show 4 new mails" color="inherit">
           <PermContactCalendarIcon />
         </IconButton>
-        <a href="/contact" style={{ textDecoration: "none", color: "black" }}>
+        <Link href="/contact">
           Contact Us
-        </a>
+        </Link>
       </MenuItem>
       <MenuItem>
         <IconButton aria-label="show 4 new mails" color="inherit">
           <InfoIcon />
         </IconButton>
-        <a href="/about" style={{ textDecoration: "none", color: "black" }}>
+        <Link href="/about">
           About Us
-        </a>
+        </Link>
       </MenuItem>
       {!authUser && (
         <Button
@@ -294,10 +295,10 @@ const Header = () => {
         >
           <img src={logo} className={classes.brandLogo} alt="brand-icon" />
           <div className={classes.sectionDesktop}>
-            <a href="/">Home</a>
-            <a href="/articles">Articles</a>
-            <a href="/contact">Contact Us</a>
-            <a href="/about">About Us</a>
+            <Link to="/">Home</Link>
+            <Link to="/articles">Articles</Link>
+            <Link to="/contact">Contact Us</Link>
+            <Link to="/about">About Us</Link>
             {!authUser && (
               <Button
                 variant="outlined"
