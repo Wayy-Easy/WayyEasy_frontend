@@ -34,6 +34,13 @@ const useStyles = makeStyles(() => ({
     "@media (min-width: 780px)": {
       display: "flex",
     },
+    "& a": {
+      textDecoration: "none",
+      marginRight: "30px",
+      marginTop: "12px",
+      fontSize: "18px",
+      color: "black",
+    },
   },
   sectionMobile: {
     position: "absolute",
