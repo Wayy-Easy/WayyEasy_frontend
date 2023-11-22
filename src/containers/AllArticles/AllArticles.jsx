@@ -8,7 +8,4 @@ const AllArticles = () => {
   )
 }
 
-export default AllArticles; 
-
-
-
+export default AllArticles

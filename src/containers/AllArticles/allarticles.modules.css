@@ -1,0 +1,139 @@
+.mainContainer{
+    background: #37718e; 
+ }
+ 
+ .headline {
+   max-width: 1270px; 
+   margin: 0 auto;
+   color: #fff; 
+   padding-top: 4rem;  
+ }
+ 
+ .headline h1 {
+   margin: 0;
+   font-size: 32px;
+   font-weight: 500;
+   text-transform: capitalize;  
+ }  
+ 
+ .headline p {
+   margin-top: 10px;
+   font-size: 16px;
+   display: inline;   
+ }
+ 
+ .dataContainer {
+   display: flex; 
+   margin: 40px 90px;  
+   padding: 20px 15px;  
+   background-color: #fff;    
+ }
+ 
+ .headingContainer {
+    padding: 20px 0px 10px 10px; 
+    background: #edf1f7f7; 
+    width: 250px;       
+ }
+ 
+ .headingContainer h3 {
+    padding: 25px 0px 25px 40px; 
+    cursor: pointer;   
+ }
+ 
+ .detailsContainer {
+    padding: 50px 50px 50px 50px;  
+ }
+ 
+ /* ContactDynamicData */ 
+ 
+ .question {           
+   padding-top: 1rem;   
+   padding-bottom: 1rem;
+   border-bottom: 1px solid gray;  
+   cursor: pointer; 
+ }
+ 
+ .question .content {
+   display: flex; 
+   justify-content: space-between; 
+   align-items: center;  
+ }
+ 
+ .question .content h3 {  
+   text-transform: none;
+   line-height: 1.5;   
+   font-weight: lighter; 
+ }  
+ 
+ .question .content h3:hover {
+   color: red;  
+ }
+ 
+ .question .content .btn {
+   color: gray;
+   background: #fff;
+   border: none;
+   cursor: pointer;
+   width: 5px;
+   margin-right: 10px; 
+ }
+ 
+ .answer {
+   margin-top: 10px; 
+   opacity: 1;
+   animation-name: answeranimate;
+   animation-duration: 2s; 
+ }
+ 
+ .answer p {  
+   background: #fdfffc; 
+   line-height: 2;
+   overflow: hidden; 
+   transition: all 500ms;  
+   transition: all 0.6s ease;  
+   display: flex;      
+   
+ }
+ 
+ 
+ @keyframes answeranimate {
+   0% {
+     opacity: 0;
+     max-height: 15px; 
+   }
+ 
+   100% {
+     opacity: 1;  
+     max-height: 350px;  
+   }
+ }
+ 
+ @keyframes questionanimate {
+   0% {
+     opacity: 0;
+     max-height: 15px;
+   }
+ 
+   100% {
+     opacity: 1;
+     max-height: 350px;
+   }
+ } 
+ 
+ 
+ @media (max-width: 576px) {
+   .headline {
+     max-width: 555px;  
+     margin: 0 auto;   
+   }
+ 
+   .dataContainer {
+     margin: 40px 10px;  
+   }
+ 
+   
+ 
+       
+ } 
+ 
+ 
