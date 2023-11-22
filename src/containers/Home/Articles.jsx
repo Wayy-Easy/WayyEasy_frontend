@@ -1,9 +1,8 @@
-import { Grid } from "@mui/material";
-import React from "react";
-
-import ArticleCards from "../../components/cards/articles/ArticlesCard.jsx";
 
 import home from "./home.module.css";
+import { Grid } from "@mui/material";
+
+import ArticleCards from "../../components/cards/articles/ArticlesCard.jsx";
 
 const Articles = () => {
   return (
