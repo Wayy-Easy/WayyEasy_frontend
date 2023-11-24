@@ -1,11 +1,11 @@
+import foot from "./footer.module.css";
+
 import { Grid } from "@mui/material";
-import React from "react";
 
 import logo from "../../files/Images/icon.svg";
 import fbWhite from "../../files/Images/facebook_white.png";
 import instaWhite from "../../files/Images/insta_white.png";
 import linkedInWhite from "../../files/Images/linkedIn_white.png";
-import foot from "./footer.module.css";
 
 const Footer = () => {
   return (
