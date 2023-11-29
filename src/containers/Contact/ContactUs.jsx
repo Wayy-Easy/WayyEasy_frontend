@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import contact from "./contactus.module.css";
-import ContactDynamicData from "./ContactDynamicData";
+import ContactDynamicData from "./ContactDynamicData"; 
 import { fAQData, legalData, partnerOnboardingData } from "./data/data";  
 
 
