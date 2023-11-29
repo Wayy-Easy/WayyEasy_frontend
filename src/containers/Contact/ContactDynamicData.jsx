@@ -1,5 +1,5 @@
 import { useState } from "react";
-import contact from "./contactus.module.css";
+import contact from "./contactus.module.css"; 
 
 
 const ContactDynamicData = ({ questions, answer }) => {   
