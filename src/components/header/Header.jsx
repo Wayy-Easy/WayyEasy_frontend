@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react"; 
 import {
   AppBar,
   Toolbar,
@@ -10,7 +10,7 @@ import {
   DialogTitle,
   DialogContent,
   Grid,
-} from "@mui/material";
+} from "@mui/material"; 
 
 import IconButton from "@mui/material/IconButton";
 import HomeIcon from "@mui/icons-material/Home";
@@ -22,7 +22,7 @@ import MailIcon from "@mui/icons-material/Mail";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import MoreIcon from "@mui/icons-material/MoreVert";
 import { useDispatch } from "react-redux";
-import { useHistory, useLocation } from "react-router-dom";
+import { useHistory, useLocation } from "react-router-dom"; 
 
 //firebase
 import { collection, query, where, getDocs } from "firebase/firestore";
@@ -30,7 +30,7 @@ import { db } from "../../FireBase/Firebase";
 
 import logo from "../../files/Images/icon.svg";
 
-import useStyles from "./styles";
+import useStyles from "./styles"; 
 import { logOut } from "../../redux/actions/admin/hospitalAdmin/owner";
 
 import Cards from "../cards/services/ServicesCard";
@@ -66,7 +66,7 @@ const Header = () => {
   const fetchPhysicianActivitstionRequest = async () => {
     const q = query(
       collection(db, "doctors"),
-      where("status", "==", "pending")
+      where("status", "==", "pending")  
     );
 
     const querySnapshot = await getDocs(q);
@@ -282,15 +282,15 @@ const Header = () => {
       <AppBar
         position="static"
         color="default"
-        style={{ background: "white" }}
+        style={{ background: "white" }}  
         elevation={0}
       >
         <Toolbar
           style={{
-            width: "86%",
-            margin: "auto",
+            width: "86%", 
+            margin: "auto",   
             paddingTop: "30px",
-            paddingBottom: "30px",
+            paddingBottom: "30px", 
           }}
         >
           <img src={logo} className={classes.brandLogo} alt="brand-icon" />
@@ -360,4 +360,8 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header; 
+
+
+
+

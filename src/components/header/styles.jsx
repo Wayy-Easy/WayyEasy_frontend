@@ -6,8 +6,8 @@ const useStyles = makeStyles(() => ({
   },
   title: {
     display: "none",
-    "@media (min-width: 780px)": {
-      display: "block",
+    "@media (min-width: 780px)": { 
+      display: "block",  
     },
   },
   brandLogo: {
@@ -60,3 +60,9 @@ const useStyles = makeStyles(() => ({
 }));
 
 export default useStyles;
+
+
+
+
+
+

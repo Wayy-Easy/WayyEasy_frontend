@@ -4,11 +4,11 @@
     margin: auto;
     margin-top: 10px;
     justify-content: space-between;
-    -webkit-box-shadow: 0 0 4px #b9b9b9;
+    -webkit-box-shadow: 0 0 4px #b9b9b9; 
     box-shadow: 0 0 4px #b9b9b9;
     border-radius: 15px;
-    padding: 10px 20px;
-    max-width: 760px;
+    padding: 10px 20px;  
+    max-width: 760px; 
 }
 
 .itemImage {
@@ -18,30 +18,19 @@
     border-radius: 10px;
 }
 
-p {
-    margin: 0;
-}
 
 .itemMain {
-    display: flex;
-}
+    display: flex;  
+} 
 
 .mainDetails {
-    display: flex;
-    flex-direction: column;
-}
-
-p {
-    width: 16vw;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    display: flex; 
+    flex-direction: column;  
 }
 
 .detiailsBtn {
-    height: 40px;
-    border-radius: 50px;
+    height: 40px;  
+    border-radius: 50px; 
     border: none;
     width: 120px;
     line-height: 40px;
@@ -52,5 +41,5 @@ p {
 
 .detiailsBtn:hover {
     cursor: pointer;
-    background-color: #3400c3;
+    background-color: #3400c3; 
 }

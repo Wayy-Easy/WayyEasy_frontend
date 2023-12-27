@@ -27,15 +27,22 @@ import ServiceView from "./AdminPanel/OPDAdmin/Services/ServiceView";
 //User Routes
 import Header from "./components/header/Header";
 import Home from "./containers/Home/Home";
+import AllArticles from "./containers/AllArticles/AllArticles.jsx";
+import ArticleDetailsPage  from "./containers/AllArticles/ArticleDetailsPage"; 
+import ContactUs from "./containers/Contact/ContactUs";  
+
+
 import Notifications from "./containers/Notifications/Notifications";
 import Notification from "./containers/Notifications/Notification";
+
+
 import AboutUs from "./containers/About/AboutUs";
 import Privacy from "./containers/Privacy/Privacy";
 import Refund from "./containers/Refund/Refund";
 import Footer from "./components/footer/Footer";
 
 //Search Routes
-import SingleSearchItemDetails from "./containers/SingleSearchItem/SingleSearchItemDetails";
+import SingleSearchItemDetails from "./containers/SingleSearchItem/SingleSearchItemDetails"; 
 
 function App() {
   return (
@@ -44,6 +51,9 @@ function App() {
         <Header />
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/articles" exact component={AllArticles}/>  
+          <Route path="/articleDetails/:id" exact component={ArticleDetailsPage} />  
+          <Route path="/contact" exact component={ContactUs} /> 
           <Route path="/about" exact component={AboutUs} />
           <Route path="/admin/auth" exact component={Auth} />
           <Route path="/privacy" exact component={Privacy} />

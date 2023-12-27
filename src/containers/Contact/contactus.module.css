@@ -1,0 +1,148 @@
+ .mainContainer{
+     background: #37718e;  
+ }
+
+  .headline {
+     color: #fff; 
+     padding: 50px 90px 0px;      
+ }  
+
+  .headline h1 {
+    font-weight: 500; 
+    font-size: 30px;  
+  }
+
+  .headline p {
+     margin-top: 5px;  
+ }  
+
+ .dataContainer {
+     display: flex;  
+     margin: 40px 90px;   
+     padding: 20px 15px;  
+     background-color: #fff;    
+ }
+
+ .headingContainer {
+     padding: 20px 0px 10px 10px; 
+     background: #edf1f7f7;  
+     width: 350px;          
+ }
+
+ .headingContainer h3 {
+     padding: 25px 0px 25px 40px; 
+     cursor: pointer;   
+ }
+
+ .detailsContainer {
+     padding: 50px 50px 50px 50px;  
+     width: 100%;  
+ }
+
+ /* ContactDynamicData */ 
+
+  .question {           
+     padding: 15px 0px; 
+     border-bottom: 1px solid gray;  
+     cursor: pointer;  
+     width: 100%;
+ }
+
+  .question .content {
+     display: flex; 
+     justify-content: space-between;  
+     align-items: center;  
+ } 
+
+ .question .content h3 {  
+     text-transform: none; 
+     line-height: 1.5;   
+     font-weight: lighter;  
+ }  
+
+ .question .content h3:hover {
+     color: red;  
+ }
+
+ .question .content .btn {
+     color: gray;
+     background: #fff;  
+     border: none;
+     cursor: pointer; 
+     font-size: 30px;
+}
+
+.answer {
+     margin-top: 10px;
+     opacity: 1;
+     animation-name: answeranimate; 
+     animation-duration: 2s; 
+}
+
+.answer p {
+     margin-top: 0.25rem;  
+     background: #fdfffc; 
+     line-height: 2;
+     overflow: hidden; 
+     transition: all 500ms;
+     transition: all 0.6s ease;  
+}
+
+
+ @keyframes answeranimate { 
+   0% {
+     opacity: 0;
+     max-height: 15px; 
+   }
+
+   100% {
+     opacity: 1;  
+     max-height: 350px;  
+   }
+ }
+
+ @keyframes questionanimate {
+   0% {
+     opacity: 0;
+     max-height: 15px;
+   }
+
+   100% {
+     opacity: 1;
+     max-height: 350px;
+   }
+ } 
+
+
+  @media (max-width: 576px) {
+    .mainContainer{
+      background: #37718e; 
+  }
+
+    .headline {
+      padding: 50px 18px 0px;        
+   } 
+
+    .dataContainer {
+      flex-direction: column;
+      /* margin: 40px 15px; */
+      margin: 40px 35px;    
+      width: auto;  
+   }
+
+    .headingContainer {
+      padding: 13px 0px 0px 0px; 
+      background: none; 
+      box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, .2); 
+      width: 100%;     
+   }
+
+    .detailsContainer {
+      padding: 50px 50px 0px 0px; 
+      width: 100%;  
+   }  
+ 
+ 
+ 
+  
+   }    

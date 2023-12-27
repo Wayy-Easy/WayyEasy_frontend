@@ -5,11 +5,11 @@ import "./index.css";
 
 //this is main wayyeasy-web
 import App from "./App";
-import store from "./redux/store";
+import store from "./redux/store"; 
 
 ReactDOM.render(
   <Provider store={store}>
     <App />
   </Provider>,
-  document.getElementById("root")
+  document.getElementById("root")  
 );

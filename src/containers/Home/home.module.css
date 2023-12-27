@@ -1,17 +1,17 @@
 .mainContainer {
   position: relative;
-  width: 85%;
+  width: 80%;
   margin: auto;
 }
 
 .sectionOne {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
 }
 
 .introFirst {
-  margin-top: 30px;
+  margin-top: 30px; 
   width: 55%;
 }
 
@@ -116,30 +116,56 @@
   padding: 0;
 }
 
-.mSContainer p {
-  width: 200px;
-}
+/* .mSContainer p {  
+  width: 200px; 
+} */
 
 /* articles */
 .articlesContainer {
-  position: relative;
+  position: relative; 
   width: 100%;
   margin-top: 100px;
   text-align: center;
 }
 
 .articlesContainer h1 {
-  margin: 0;
+  margin: 0;  
   padding: 0;
+  font-size: 3.2em;
+  line-height: 1.1; 
 }
 
 .articlesContainer p {
-  margin-bottom: 20px;
+  margin-bottom: 20px;  
 }
 
 .cards {
   position: relative;
 }
+
+
+.articlesContainer .btn {  
+  color: #4200ff;     
+  border: 2px solid #4200ff;     
+  padding: 15px 20px; 
+  border-radius: 12px; 
+  font-size: 15px; 
+  margin-top: 50px;
+  margin-left: 59rem;    
+  cursor: pointer;
+  
+}
+
+.articlesContainer .btn:hover {
+  background: #4200ff;  
+  color: white;     
+}
+
+.articlesContainer .icons {
+  font-size: 18px;  
+  margin-bottom: -5px;  
+}
+
 
 /* search section starts here */
 
@@ -220,7 +246,7 @@
 @media screen and (max-width: 968px) {
   .sectionOne {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
     align-items: center;
   }
 
@@ -233,6 +259,12 @@
     position: relative;
     margin: auto;
     margin-top: 50px;
+  }
+
+
+  .articlesContainer .btn {  
+    margin: auto;  
+    margin-top: 20px;  
   }
 }
 
@@ -264,6 +296,12 @@
     margin-top: 10px;
     width: 300px;
     margin-right: 0px !important;
+  }
+
+
+  .articlesContainer .btn {  
+    margin: auto;  
+    margin-top: 20px;  
   }
 }
 
@@ -306,7 +344,7 @@
   }
 
   .searchButton {
-    margin-top: 10px;
-    width: 225px;
+    margin-top: 10px; 
+    width: 225px; 
   }
 }

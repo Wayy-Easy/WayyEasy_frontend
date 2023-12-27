@@ -4,10 +4,10 @@ import {
   CardMedia,
   Typography,
 } from "@mui/material";
-import React from "react";
-import { makeStyles } from '@mui/styles';
 
-import image from "../../../files/Images/articles_default.png";
+import { makeStyles } from '@mui/styles'; 
+
+import image from "../../../files/Images/articles_default.png";  
 
 const useStyles = makeStyles({
   root: {
@@ -46,7 +46,7 @@ const ArticlesCard = (props) => {
         marginTop: 30,
         maxWidth: width <= 959 && width >= 700 ? 560 : 320,
         flexDirection: width <= 959 && width >= 700 ? "row" : "column",
-      },
+      }, 
     };
   } else {
     alignStyle = {
@@ -63,7 +63,7 @@ const ArticlesCard = (props) => {
       <div style={{ position: "relative" }}>
         <CardMedia
           style={{
-            height: props?.main ? 160 : 190,
+            height: props?.main ? 160 : 190,  
             width: props?.main ? 270 : 250,
           }}
           className={classes.media}
@@ -76,23 +76,23 @@ const ArticlesCard = (props) => {
         ></div>
       </div>
       <CardContent style={{ position: "relative" }}>
-        <Typography variant="h5" component="h2" gutterBottom>
+        <Typography variant="h5" component="h2" gutterBottom>  
           {props?.title}
         </Typography>
         <Typography
           sx={{
-            display: "-webkit-box",
+            display: "-webkit-box", 
             overflow: "hidden",
-            WebkitBoxOrient: "vertical",
-            WebkitLineClamp: 1,
+            WebkitBoxOrient: "vertical", 
+            WebkitLineClamp: 2,        
           }}
           variant="body1"
         >
-          {props?.des}
-        </Typography>
+          {props?.des}  
+        </Typography> 
       </CardContent>
     </Card>
   );
 };
 
-export default ArticlesCard;
+export default ArticlesCard; 
