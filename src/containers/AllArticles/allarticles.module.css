@@ -1,14 +1,5 @@
 /* allarticles */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
-
-* {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     font-family: 'Roboto', sans-serif; 
-}
-
 .main_section_container {
      display: grid; 
      grid-template-columns: 1fr 1fr 1fr;
@@ -32,7 +23,6 @@
 }  
 
 .main_section_card_content {
-     width: 100%;
      padding: 30px;  
 }
 

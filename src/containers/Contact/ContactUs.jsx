@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import contact from "./contactus.module.css";
 import ContactDynamicData from "./ContactDynamicData"; 
-import { fAQData, legalData, partnerOnboardingData } from "./data/data";  
+import { fAQData, legalData, partnerOnboardingData } from "./data/data"; 
 
 
 const ContactUs = () => {
@@ -9,7 +9,7 @@ const ContactUs = () => {
     partnerOnboardingData
   );
 
-  const [index, setIndex] = useState(1);
+  const [index, setIndex] = useState(1);   
 
   useEffect(() => {
     if (index === 1) {
@@ -83,4 +83,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default ContactUs; 

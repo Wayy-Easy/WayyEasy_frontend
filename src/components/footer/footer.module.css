@@ -6,7 +6,7 @@
 .section1,
 .section2,
 .section3 {
-    position: relative;
+    position: relative; 
     width: 270px;  
     padding: 50px;
     text-align: center;
@@ -87,3 +87,5 @@
         margin-top: auto;
     }
 }
+
+

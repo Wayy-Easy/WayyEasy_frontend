@@ -5,7 +5,7 @@ import { Grid } from "@mui/material";
 import logo from "../../files/Images/icon.svg";
 import fbWhite from "../../files/Images/facebook_white.png";
 import instaWhite from "../../files/Images/insta_white.png";
-import linkedInWhite from "../../files/Images/linkedIn_white.png";
+import linkedInWhite from "../../files/Images/linkedIn_white.png"; 
 
 const Footer = () => {
   return (
@@ -51,4 +51,6 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer;   
+
+

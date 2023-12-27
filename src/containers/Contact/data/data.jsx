@@ -148,72 +148,68 @@ export const partnerOnboardingData = [
   export const fAQData = [
     {
       id: 1,
-      questions: "What ia Swiggy Customer Care Number?",    
+      questions: "what is an online doctor consultation or online medical consultation?",    
       answer:
-        "We value our customer’s time and hence moved away from a single customer care number to a comprehensive chat-based support system for quick and easy resolution. You no longer have to go through the maze of an IVRS call support. Just search for your issue in the help section on this page and initiate a chat with us. A customer care executive will be assigned to you shortly. You can also email us your issue on support@swiggy.in",
+        "When you speak to a doctor about your health concerns through an audio/video/ chat, it is known as an online doctor consultation or online medical consultation. This is a good alternative for times when you cannot visit a doctor physically at the clinic or hospital. An online doctor consultation works the same way as a physical consultation where you get a doctors note after the consultation is complete. Some of the benefits of an online medical consultation at Apollo 24/7 are that you can consult a doctor at the convenience of your home and can order the prescribed medicines by using the Order Medicines option",
     },
   
     {
       id: 2,
-      questions: "Can I edit my order?", 
-      answer:
-        "Your order can be edited before it reaches the restaurant. You could contact customer support team via chat or call to do so. Once order is placed and restaurant starts preparing your food, you may not edit its contents",
+      questions: "How do I consult a doctor online now?",  
+      answer: 
+        " You can book an online consultation either on the website or mobile app of Apollo 24/7 in two ways. Click on the ‘Find a Doctor’ button on the homepage of the website/app, select a specialty or type the name of the doctor directly. Once you select a doctor, you can click on the “Consult Now’ button to start the online consultation.", 
+         
     },
   
     {
       id: 3,
-      questions: "I want to partner my restaurant with Swiggy?",
+      questions: "how do I pay for the online doctor consultation?",
       answer:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     },
   
     {
       id: 4,
-      questions: "I want to partner my restaurant with Swiggy?",
+      questions: "Will I get a refund if I cancel the online doctor consultation?", 
       answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "Yes. If you cancel the online consultation, the refund for the same will reflect in your account within 5 to 7 working days.",
     },
   
     {
       id: 5,
-      questions: "I want to partner my restaurant with Swiggy?",
+      questions: "What is a specialist doctor?", 
       answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "A doctor who has done a specialization/training in a specific area of medicine after completing his/her M.B.B.S degree is known as a specialist doctor. He/she can treat complex health issues which a primary doctor may be unable to.",
     },
   
     {
       id: 6,
-      questions: "I want to partner my restaurant with Swiggy?",
+      questions: "How do I book an online oppointment with a specialist doctor in advance for tomorrow or later?",
       answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "To book an online appointment with a specialist doctor, you can select the speciality from the displayed list or type in the name of the speciality. Once you select the speciality, you will be shown a list of doctors and their availability. If you wish to book an online appointment for a later time, you can choose the doctors that have ‘Consult Tomorrow’ or ‘Consult in 2 days’, ‘Consult in 3 days,’ etc. You can also choose the ‘Schedule for Later’ option after selecting the doctor and clicking on the ‘Consult Now’ button.",
     },
   
     {
       id: 7,
-      questions: "I want to partner my restaurant with Swiggy?",
+      questions: "For how long can I speak to the doctor?", 
       answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "Once you book an online consultation on our app, you will get 15 minutes to speak to the doctor. This window can, however, change according to your health condition and the number of queries you have.",
     },
   
     {
       id: 8,
-      questions: "I want to partner my restaurant with Swiggy?",
+      questions: "Why have I not received a response from the doctor?", 
       answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "Though a rarity, this may happen sometimes if your doctor is busy but there is no need to worry. Your appointment will get rescheduled automatically for the next available slot.",
     },
   
     {
       id: 9,
-      questions: "I want to partner my restaurant with Swiggy?",
+      questions: "I missed the consultation call from the doctor.What do I do now?", 
       answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "If you've missed a call from the doctor, you can go to the chat window and request a call by simply chatting with the doctor. In case the doctor is unavailable, you can reschedule the consultation. If you aren't happy with the date and timings, you can email us at helpdesk@apollo247.com, and we'll get back to you in no time with a better solution.",
     },
   
-    {
-      id: 10,
-      questions: "I want to partner my restaurant with Swiggy?",
-      answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    },
+    
   ];
   

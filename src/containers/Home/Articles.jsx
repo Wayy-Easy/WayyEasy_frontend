@@ -4,14 +4,14 @@ import { Grid } from "@mui/material";
 import { Link } from 'react-router-dom'; 
 import { LiaAngleRightSolid } from "react-icons/lia";  
 
-import ArticleCards from "../../components/cards/articles/ArticlesCard.jsx";
+import ArticleCards from "../../components/cards/articles/ArticlesCard.jsx"; 
 
 const Articles = () => {
   return (
     <div className={home.articlesContainer}>
       <h1>Our Latest Articles</h1>
       <p>Written by our experts</p>
-      <Grid container spacing={2} justifyContent="space-around">
+      <Grid container spacing={2} justifyContent="space-around"> 
         <Grid item xs={12} md={4} lg={4}>
           <ArticleCards
             main={true}

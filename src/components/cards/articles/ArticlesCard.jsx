@@ -5,9 +5,9 @@ import {
   Typography,
 } from "@mui/material";
 
-import { makeStyles } from '@mui/styles';
+import { makeStyles } from '@mui/styles'; 
 
-import image from "../../../files/Images/articles_default.png";   
+import image from "../../../files/Images/articles_default.png";  
 
 const useStyles = makeStyles({
   root: {
@@ -76,23 +76,23 @@ const ArticlesCard = (props) => {
         ></div>
       </div>
       <CardContent style={{ position: "relative" }}>
-        <Typography variant="h5" component="h2" gutterBottom> 
+        <Typography variant="h5" component="h2" gutterBottom>  
           {props?.title}
         </Typography>
         <Typography
           sx={{
-            display: "-webkit-box",
+            display: "-webkit-box", 
             overflow: "hidden",
-            WebkitBoxOrient: "vertical",
-            WebkitLineClamp: 1,    
+            WebkitBoxOrient: "vertical", 
+            WebkitLineClamp: 2,        
           }}
           variant="body1"
         >
           {props?.des}  
-        </Typography>
+        </Typography> 
       </CardContent>
     </Card>
   );
 };
 
-export default ArticlesCard;
+export default ArticlesCard; 
